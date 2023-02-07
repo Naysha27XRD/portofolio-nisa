@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.app {
+    background: url(image/bg.svg);
+    height: 100vh;
+    background-color: #222831;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+    height: 70px;
+    padding: 80px;
+    flex-direction: column;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.color{
+    color: #00ADB5;
+}
+
+.header-link {
+    /* display: flex; */
+    gap: 20px;
+    color: #fff;
+}
+
+button {
+    background-color:#00ADB5;
+    border:#222831 3px solid;
+    border-radius: 30px;
+    padding:10px 20px;
+    margin-top: 30px;
+}
+
+
+
+.content {
+    background: transparent;
+    height: 70vh;
+    width: 80px;
+    display: block;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    gap: 10px;
+
+}
+
+.content-img {
+    background: transparent;
+    background: rgba(57, 62, 70, 0.5);
+}
+
+.content-img img {
+    background: rgba(57, 62, 70, 0.5);
+
+}
+
+.project {
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #222831;
+    flex-direction: column;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 20px;
+}
+
+.project-text {
+    padding: 90px;
+    gap: 50px;
+}
+
+.project-img {
+    height: 90vh;
+    width: 192px;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 30px;
+    align-items: center;
+}
+
+.contact-nama {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 256px 16px 24px;
+    gap: 10px;
+    width: 9px;
+    height: 20px;
+    background: rgba(57, 62, 70, 0.5);
+    border-radius: 13px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 18px;
+}
+
+.contact-email{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 256px 16px 24px;
+    gap: 10px;
+    width: 9px;
+    height: 20px;
+    background: rgba(57, 62, 70, 0.5);
+    border-radius: 13px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 18px;
+}
+
+.contact-message {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 256px 16px 24px;
+    gap: 10px;
+    width: 200px;
+    height: 140px;
+    background: rgba(57, 62, 70, 0.5);
+    border-radius: 13px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 18px;
+}
+
+.contact-submit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    height: 47px;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
