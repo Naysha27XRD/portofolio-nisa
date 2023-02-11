@@ -6,14 +6,13 @@
 
 .app {
     background: url(image/bg.svg);
-    height: 100vh;
+    height: 100%;
     background-color: #222831;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    width: 540px;
     height: 70px;
     padding: 80px;
     flex-direction: column;
@@ -46,14 +45,12 @@ button {
 
 .content {
     background: transparent;
-    height: 70vh;
-    width: 80px;
+    padding: 100px 0;
     display: block;
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: center;
-    padding: 1px;
     gap: 10px;
 
 }
@@ -81,16 +78,17 @@ button {
 }
 
 .project-text {
-    padding: 90px;
-    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
 }
 
 .project-img {
-    height: 90vh;
     width: 192px;
     justify-content: space-between;
-    padding: 100px;
-    gap: 30px;
+    margin-bottom: 40px;
+    padding: 5px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -132,7 +130,7 @@ button {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 16px 256px 16px 24px;
+    padding: 30px;
     gap: 10px;
     width: 200px;
     height: 140px;
@@ -157,3 +155,28 @@ button {
     order: 1;
     flex-grow: 0;
 }
+
+/* Responsive Breakpoint */
+@media screen and (max-width: 1000px){
+    .hero {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .app {
+        flex-wrap: wrap;
+    }
+
+    .header-link {
+        display: flex;
+    }
+
+    .project {
+        display: flex;
+    }
+
+    .content {
+        flex-wrap: wrap;
+    }
+}
+
